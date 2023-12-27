@@ -12,6 +12,10 @@ The application is built in Go and uses the `net/http` package to make the HTTP 
 
 The application starts by initializing a new `App` struct, which contains the HTTP client, headers for the requests, and other necessary data. It then enters a loop where it continuously creates new promos. Each promo creation is done in a separate goroutine, allowing for concurrent execution.
 
+## Demo
+
+Watch this [video](https://streamable.com/8ghkrv) to see the tool in action.
+
 ## 🚀 How to run 🚀
 
 To run the application, you need to have Go installed on your machine. Once you have Go installed, you can run the application by executing the following command in the terminal:
